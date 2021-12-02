@@ -164,7 +164,7 @@ def joint_trainer(
                 # Random Generator
                 Z_mb  = torch.zeros((args.batch_size, args.max_seq_len, args.Z_dim))
                 for idx in range(args.batch_size):
-                    Z_mb[idx] = torch.random(args.max_seq_len, args.Z_dim)
+                    Z_mb[idx] = torch.rand(args.max_seq_len, args.Z_dim)
 
                 # Forward Pass (Generator)
                 model.zero_grad()
@@ -188,7 +188,7 @@ def joint_trainer(
             # Random Generator
             Z_mb  = torch.zeros((args.batch_size, args.max_seq_len, args.Z_dim))
             for idx in range(args.batch_size):
-                Z_mb[idx] = torch.random(args.max_seq_len, args.Z_dim)
+                Z_mb[idx] = torch.rand(args.max_seq_len, args.Z_dim)
 
             ## Discriminator Training
             model.zero_grad()
