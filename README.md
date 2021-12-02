@@ -1,9 +1,11 @@
 # timegan-pytorch
 This repository holds the code for the reimplementation of TimeGAN ([Yoon et al., NIPS2019](https://papers.nips.cc/paper/8789-time-series-generative-adversarial-networks)) using PyTorch. 
-Lots of the code was derived from the original implementation [here](https://github.com/d9n13lt4n/timegan-pytorch) ang slightly modified to run with BG(Blood Glucose) level data.
+
+Lots of the code was derived from the pytorch implementation [here](https://github.com/d9n13lt4n/timegan-pytorch) and slightly modified to run with BG(Blood Glucose) level data.
 
 > :warning: WARNING!!!
 > - This implementation is written for other purposes, not for experiments in the original paper.
+> - Lots of the code was derived from the pytorch implementation [here](https://github.com/d9n13lt4n/timegan-pytorch)
 
 
 ## Getting Started
